@@ -1,0 +1,16 @@
+footer.footer 
+    .container 
+        .footer__inner 
+            .footer__col
+                h4.footer__title Успей купить!
+                p.footer__text Подпишись и успей словить все акции
+
+            .footer__col 
+                form.footer__form.form(action="#" novalidate)
+                    .footer__form-group.form__group
+                        input.footer__input.form__input(type="email", name="email", placeholder="Email" tabindex="1")
+                        .form__errors
+                    button.footer__btn.form__btn(type="submit" tabindex="3") Подписаться
+                    .footer__form-group.form__group 
+                        input.footer__check.form__check(type="checkbox",id="subscribe" ,name="subscribe" tabindex="2")
+                        label.footer__check-label.form__check-label(for="subscribe") Подписаться на новости
