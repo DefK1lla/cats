@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     for (let i = 0; i < products.children.length; i++) {
         products.children[i].setAttribute('data-price', products.children[i].querySelector('.products__price').textContent.replace(/\D/g, ''));
-        products.children[i].setAttribute('data-age', products.children[i].querySelector('.prodcuts__age').textContent.replace(/\D/g, ''));
+        products.children[i].setAttribute('data-age', products.children[i].querySelector('.products__age').textContent.replace(/\D/g, ''));
     }
 
 
